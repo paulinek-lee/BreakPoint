@@ -1,0 +1,1 @@
+/usr/bin/cc  -arch arm64 -dynamiclib -Wl,-headerpad_max_install_names -L/opt/X11/lib -o libdsv_agent.dylib -install_name @rpath/libdsv_agent.dylib CMakeFiles/dsv_agent.dir/agent/src/interpose.c.o

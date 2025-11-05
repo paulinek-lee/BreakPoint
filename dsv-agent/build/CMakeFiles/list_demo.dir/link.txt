@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/opt/X11/lib CMakeFiles/list_demo.dir/sample/list_demo.cpp.o -o list_demo
